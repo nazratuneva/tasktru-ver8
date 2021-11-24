@@ -1,0 +1,425 @@
+.help-section {
+  background: #f1f1f1;
+  padding: 60px 0;
+}
+.help-section .nav-pills .nav-item {
+  margin: 0 15px;
+}
+
+.help-section .nav-pills .nav-item:first-child {
+  margin-left: 0;
+}
+
+.help-section .nav-pills .nav-item:last-child {
+  margin-right: 0;
+}
+
+.help-section .nav-pills .nav-link {
+  padding: 15px;
+  background: #fff;
+  color: #333;
+  font-size: 32px;
+  font-weight: 600;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.help-section .nav-pills .nav-link.active {
+  background: #75ae3e;
+  color: #ffff;
+}
+
+#pills-personal .questions,
+#pills-personal .answers {
+  min-height: 600px;
+}
+
+#pills-business .questions,
+#pills-business .answers {
+  min-height: 750px;
+}
+.questions {
+  padding: 40px 30px;
+  background: #75ae3e;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.help-section .accordion-item {
+  border-radius: 0;
+  border: none;
+}
+
+.help-section .accordion-button {
+  padding-left: 35px;
+}
+
+.help-section .accordion-button {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  background: #75ae3e;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+
+.help-section .accordion-button:not(.collapsed) {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  background: #75ae3e;
+}
+
+.help-section .accordion-button:not(.collapsed)::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  background-image: none;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.help-section .accordion-button::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  background-image: none;
+  position: absolute;
+  left: 0;
+  top: 17px;
+}
+
+.help-section .accordion-body {
+  background: #75ae3e;
+  padding: 0;
+}
+
+.help-section .accordion-body .nav-link {
+  background: #75ae3e;
+  color: #fff;
+  border: 0;
+  padding-left: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.help-section .accordion-body .nav-link.active {
+  position: relative;
+}
+
+.help-section .accordion-body .nav-link.active::after {
+  position: absolute;
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.answers {
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 100px 30px;
+}
+
+.answer-box h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.answer-box ul {
+  padding: 0 20px;
+}
+.answer-box ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/* help Mobile Accordion CSS */
+
+.help-mobile {
+}
+
+.help-mobile .accordion-item {
+  border: none;
+}
+
+.help-mobile .accordion-header {
+}
+
+.help-mobile .accordion-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.help-mobile .accordion-button {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  color: #333;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.help-mobile .accordion-button:not(.collapsed) {
+  background: #75ae3e;
+  color: #ffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.help-mobile .accordion-button::after {
+  content: "";
+  background-image: none;
+}
+
+.help-mobile .accordion-body {
+  padding: 20px 20px 40px;
+}
+
+.help-mobile .accordion-body p {
+  margin-bottom: 20px;
+}
+
+.help-mobile .accordion-body h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.help-mobile .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.help-mobile .accordion-item {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.help-section .help-mobile .accordion-button:not(.collapsed)::after {
+  content: "";
+}
+
+.help-section .help-mobile .accordion-item {
+  background: #f1f1f1;
+}
+
+.help-section .help-mobile .accordion-header {
+  margin-bottom: 20px;
+}
+
+.help-section .help-mobile .accordion-button {
+  border-radius: 5px !important;
+}
+
+.help-section .help-mobile .accordion-button:not(.collapsed) {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.help-section .help-mobile #accordionPersonal-mobile .accordion-item,
+.help-section .help-mobile #accordionBusiness-mobile .accordion-item {
+  margin-bottom: 0;
+}
+
+.help-section .help-mobile #accordionPersonal-mobile .accordion-header,
+.help-section .help-mobile #accordionBusiness-mobile .accordion-header {
+  margin-bottom: 0;
+}
+
+.help-mobile #accordionPersonal-mobile .accordion-button,
+.help-mobile #accordionBusiness-mobile .accordion-button {
+  display: inline;
+  text-align: left;
+  font-size: 26px;
+  padding: 15px 30px;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+
+.help-mobile #accordionPersonal-mobile .accordion-button:not(.collapsed),
+.help-mobile #accordionBusiness-mobile .accordion-button:not(.collapsed) {
+}
+
+.help-mobile #accordionPersonal-mobile .accordion-button.collapsed,
+.help-mobile #accordionBusiness-mobile .accordion-button.collapsed {
+  background: #75ae3e;
+  color: #fff;
+}
+
+.help-mobile #accordionPersonal-mobile .accordion-button::after,
+.help-mobile #accordionBusiness-mobile .accordion-button::after {
+  content: "\f105";
+}
+
+.help-mobile #accordionPersonal-mobile .accordion-body,
+.help-mobile #accordionBusiness-mobile .accordion-body {
+  padding: 0 20px;
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-item,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-item,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-item,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-item {
+  background: #75ae3e;
+}
+
+.help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-button,
+.help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-button,
+.help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-button,
+.help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-button {
+  font-size: 16px;
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-button:not(.collapsed)::after,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-button:not(.collapsed)::after,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-button:not(.collapsed)::after,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-button:not(.collapsed)::after {
+  content: "\f0da";
+  top: 23px;
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-button.collapsed,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-button.collapsed,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-button.collapsed,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-button.collapsed {
+  background: #75ae3e;
+  color: #fff;
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-button.collapsed::after,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-button.collapsed::after,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-button.collapsed::after,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-button.collapsed::after {
+  content: "";
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-collapse,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-collapse,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-collapse,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-collapse {
+  border-radius: 5px;
+}
+
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalAccountContent
+  .accordion-body,
+.help-section
+  .help-mobile
+  #accordionPersonal-mobile
+  #accordionPersonalServiceContent
+  .accordion-body,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessAccountContent
+  .accordion-body,
+.help-section
+  .help-mobile
+  #accordionBusiness-mobile
+  #accordionBusinessServiceContent
+  .accordion-body {
+  background: #fff;
+  padding: 20px 20px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,262 @@
+.faq-section {
+  padding: 60px 0;
+  background-color: #f1f1f1;
+}
+.section-heading {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.faq-section .nav-pills .nav-link {
+  color: #333;
+  font-size: 32px;
+  font-weight: 600;
+  background: #fff;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.faq-section .nav-pills .nav-link:hover {
+  background-color: #75ae3e;
+  color: #fff;
+}
+
+.faq-section .nav-pills .nav-link:not(:last-child) {
+  padding: 15px 90px;
+  margin-bottom: 60px;
+}
+
+.faq-section .nav-pills .nav-link:last-child {
+  padding: 15px 0;
+}
+.faq-section .nav-pills .nav-link.active {
+  background: #75ae3e;
+  color: #ffff;
+}
+
+.faq-section .tab-content {
+  padding: 60px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.faq-section .accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 7px 0;
+  border-radius: 0;
+}
+
+.faq-section .accordion-button {
+  padding-left: 40px;
+  font-weight: 600;
+}
+
+.faq-section .accordion-button:hover {
+  color: #75ae3e;
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+  color: #75ae3e;
+  background: #fff;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.faq-section .accordion-button::after {
+  background-image: url(../images/chevron-close.png);
+  background-size: auto;
+  transform: rotate(0);
+  margin-left: 0;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+}
+.faq-section .accordion-button:hover::after {
+  background-image: url(../images/chevron-right-hover.png);
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/chevron-open.png);
+  top: 23px;
+}
+
+.faq-section .accordion-body {
+  padding: 5px 40px 20px;
+}
+
+.faq-section .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* FAQ Mobile Accordion CSS */
+
+.faq-mobile {
+}
+
+.faq-mobile .accordion-item {
+  border: none;
+}
+
+.faq-mobile .accordion-header {
+}
+
+.faq-mobile .accordion-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.faq-mobile .accordion-button {
+  border-radius: 5px;
+  padding: 15px;
+  background: #fff;
+  color: #333;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.faq-mobile .accordion-button:not(.collapsed) {
+  background: #75ae3e;
+  color: #ffff;
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: none;
+}
+
+.faq-mobile .accordion-button::after {
+  content: "";
+  background-image: none;
+}
+
+.faq-mobile .accordion-body {
+  border: none;
+  border-radius: 0;
+  padding: 20px 20px 40px;
+}
+
+.faq-mobile .accordion-body p {
+  margin-bottom: 20px;
+}
+
+.faq-mobile .accordion-body h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faq-mobile .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: 0px 2px 5px 3px rgb(33 33 33 / 5%);
+}
+
+.faq-mobile .accordion-item {
+  padding: 0;
+  border-radius: 5px;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-item,
+.faq-mobile #accordionBusiness-mobile .accordion-item,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 7px 0;
+  border-radius: 0;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button,
+.faq-mobile #accordionBusiness-mobile .accordion-button,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button {
+  padding-left: 40px;
+  font-weight: 600;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:hover,
+.faq-mobile #accordionBusiness-mobile .accordion-button:hover,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:hover {
+  color: #75ae3e;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:not(.collapsed),
+.faq-mobile #accordionBusiness-mobile .accordion-button:not(.collapsed),
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:not(.collapsed) {
+  color: #75ae3e;
+  background: #fff;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button::after,
+.faq-mobile #accordionBusiness-mobile .accordion-button::after,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button::after {
+  background-image: url(../images/chevron-close.png);
+  background-size: auto;
+  transform: rotate(0);
+  margin-left: 0;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:hover::after,
+.faq-mobile #accordionBusiness-mobile .accordion-button:hover::after,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:hover::after {
+  background-image: url(../images/chevron-right-hover.png);
+}
+
+.faq-mobile
+  #accordionOnePersonal-mobile
+  .accordion-button:not(.collapsed)::after,
+.faq-mobile #accordionBusiness-mobile .accordion-button:not(.collapsed)::after,
+.faq-mobile
+  #accordionBusinessPlus-mobile
+  .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/chevron-open.png);
+  top: 22px;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-body,
+.faq-mobile #accordionBusiness-mobile .accordion-body,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-body {
+  padding: 5px 40px 20px;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:focus,
+.faq-mobile #accordionBusiness-mobile .accordion-button:focus,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button,
+.faq-mobile #accordionBusiness-mobile .accordion-button,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  box-shadow: none;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:not(.collapsed),
+.faq-mobile #accordionBusiness-mobile .accordion-button:not(.collapsed),
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:not(.collapsed) {
+  color: #75ae3e;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-button:focus,
+.faq-mobile #accordionBusiness-mobile .accordion-button:focus,
+.faq-mobile #accordionBusinessPlus-mobile .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.faq-mobile #accordionOnePersonal-mobile .accordion-item:not(:last-child),
+.faq-mobile #accordionBusiness-mobile .accordion-item:not(:last-child),
+.faq-mobile #accordionBusinessPlus-mobile .accordion-item:not(:last-child) {
+  margin-bottom: 0;
+}

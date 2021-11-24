@@ -1,0 +1,67 @@
+.section-heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #75ae3e;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+
+.section-heading.dark {
+  color: #333;
+}
+
+.internal-link {
+  color: #75ae3e;
+  text-decoration: none;
+}
+
+.internal-link:hover {
+  color: #75ae3e;
+}
+
+.profile {
+  padding: 60px 0;
+}
+
+.profile h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  margin-bottom: 0;
+}
+
+.profile p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.box {
+  background: #f1f1f1;
+  padding: 20px 15%;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#personal-profile,
+#business-plus-profile {
+  background-color: #e0e7d7;
+}
+
+#business-profile {
+  background-color: #b3ce98;
+}
+
+@media screen and (max-width: 767px) {
+  .section-heading {
+    font-size: 30px;
+  }
+}

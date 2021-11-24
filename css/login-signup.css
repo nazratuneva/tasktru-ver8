@@ -1,0 +1,147 @@
+.internal-link {
+  color: #75ae3e;
+  text-decoration: none;
+}
+
+.internal-link:hover {
+  color: #75ae3e;
+}
+
+.login-signup-section {
+  padding: 60px 0;
+  background-color: #f1f1f1;
+}
+
+.user-decription-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.user-decription-box-content .row {
+  border: 1px solid #75ae3e;
+  border-radius: 5px;
+}
+
+.user-type-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.user-type-box h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  width: 100%;
+}
+
+.user-decription {
+  border-left: 1px solid #75ae3e;
+}
+
+.selected-user {
+  background: #75ae3e;
+}
+
+.selected-user h5 {
+  color: #fff;
+}
+.login-signup-heading {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  border: 1px solid #75ae3e;
+  border-radius: 5px;
+}
+
+.login-form label {
+  display: block;
+}
+
+.login-form .form-check {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.login-form .form-check:not(:last-child) {
+  margin-right: 5em;
+}
+
+.login-form .form-check-input:checked {
+  background-color: #75ae3e;
+  border-color: #75ae3e;
+}
+
+.login-form .form-check-input:focus {
+  box-shadow: none;
+}
+
+.login-form .form-control {
+  padding: 12px;
+  border: 1px solid #999;
+}
+
+.login-form .form-control:focus {
+  border: 1px solid #999;
+  box-shadow: none;
+}
+
+.login-form input::placeholder {
+  color: #999;
+}
+
+.login-form .btn-submit {
+  background-color: #75ae3e;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.login-form .btn-submit:hover {
+  background-color: #64a12a;
+}
+
+.btn-google {
+  background-color: #dc4a3d;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.btn-google:hover {
+  background-color: #be3a2e;
+  color: #fff;
+}
+
+.btn-apple {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.btn-apple:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.btn-google span,
+.btn-apple span {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .login-form .form-check {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .user-decription-box {
+    padding: 20px;
+  }
+}
